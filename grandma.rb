@@ -1,9 +1,10 @@
 # Write a speak_to_grandma method.
+
 def speak_to_grandma(phrase)
-  puts 
+  puts phrase
 end
   
-if speak_to_grandma == "I LOVE YOU GRANDMA"
+if phrase == "I LOVE YOU GRANDMA"
     puts "I LOVE YOU TOO PUMPKIN!"
 end
 
