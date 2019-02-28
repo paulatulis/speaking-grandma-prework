@@ -5,12 +5,6 @@ def speak_to_grandma(phrase)
   phrase = "Hi!"
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elseif phrase == "Hi!"
-    return "HUH?! SPEAK UP, SONNY!"
-  elseif phrase == "WHAT DID YOU EAT TODAY?"
-    return "NO, NOT SINCE 1938"
-  elseif phrase == "WHAT?"
-    return "NO, NOT SINCE 1938"
   end
 end
 
