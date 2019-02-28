@@ -7,25 +7,15 @@ def speak_to_grandma(phrase)
     return "I LOVE YOU TOO PUMPKIN!"
   elseif phrase == phrase.downcase
     return "HUH?! SPEAK UP, SONNY!"
+  elseif phrase == phrase.downcase
+    return "HUH?! SPEAK UP, SONNY!"
+  elseif phrase == phrase.upcase
+    return "NO, NOT SINCE 1938!"
+  elseif phrase == phrase.upcase
+    return "NO, NOT SINCE 1938!"
   end
 end
 
-def speak_to_grandma(phrase)  
-  phrase = "Hi Nana, how are you?"
-    if phrase == "Hi Nana, how are you?"
-    return "HUH?! SPEAK UP, SONNY!"
-  end
-end
-
-def speak_to_grandma(phrase)  
-  phrase = "Hi Nana, how are you?"
-  
-elseif phrase == "Hi!"
-    return "HUH?! SPEAK UP, SONNY!"
-  elseif phrase == "WHAT DID YOU EAT TODAY?"
-    return "NO, NOT SINCE 1938"
-  elseif phrase == "WHAT?"
-    return "NO, NOT SINCE 1938"
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
