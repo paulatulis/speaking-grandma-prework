@@ -13,8 +13,6 @@ def speak_to_grandma(phrase)
   end
 end
 
-phrase = "Hi Nana, how are you?"
-
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
