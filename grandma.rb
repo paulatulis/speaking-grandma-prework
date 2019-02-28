@@ -2,9 +2,7 @@
 phrase = "I LOVE YOU GRANDMA"
 def speak_to_grandma
   if phrase == "I LOVE YOU GRANDMA"
-    puts "NO, NOT SINCE 1983!"
-  else
-    puts "HUH?! SPEAK UP, SONNY!"
+    puts "I LOVE YOU TOO PUMPKIN!"
 end
 
 # Whatever you say to grandma, she should respond with
