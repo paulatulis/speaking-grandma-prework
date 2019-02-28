@@ -4,16 +4,9 @@ def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO, PUMPKIN!"
   else
-    puts 
+    puts "HUH?! SPEAK UP, SONNY!"
 end
- 
-  phrase = "I LOVE YOU GRANDMA!"
 
-speak_to_grandma("I LOVE YOU GRANDMA!")
-
-if phrase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
-end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
