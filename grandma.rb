@@ -6,9 +6,9 @@ def speak_to_grandma(phrase)
     return "I LOVE YOU TOO PUMPKIN!"
   elseif phrase == "Hi Nana, how are you?" || phrase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-  elseif phrase == "WHAT DID YOU EAT TODAY?"
+  elseif phrase == phrase.upcase
     return "NO, NOT SINCE 1938!"
-  elseif phrase == "WHAT?"
+  else
     return "NO, NOT SINCE 1938!"
   end
 end
